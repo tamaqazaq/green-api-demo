@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+.env
+.env.local
+.env.production
+npm-debug.log
+
+# VSCode / IntelliJ / WebStorm
+.idea/
+.vscode/
+
+# React build
+build/
+dist/
+
+# Logs
+logs/
+*.log

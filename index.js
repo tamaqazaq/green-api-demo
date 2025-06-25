@@ -12,5 +12,9 @@ app.use(express.json());
 
 app.use('/api', apiRoutes);
 
+app.get('/ping', (req, res) => {
+    res.send('OK');
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log("Сервер запущен"));
